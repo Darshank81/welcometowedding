@@ -1,0 +1,66 @@
+.example-card {
+    margin-bottom: 15px;
+    background-color: #e0e5eb;
+}
+  
+.example-header-image {
+    background-size: cover;
+}
+
+.main-text{
+    color: #ff00ff;
+    -webkit-background-clip: text;
+    display: inline-block;
+    background-clip: text;
+    font-size: 300%;
+    padding: 10px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    text-shadow: 
+    -8px -8px 12px rgba(255,255,255,0.4),
+     8px 8px 12px rgba(0,0,0,0.08);
+     caret-color:#262626;
+     outline: none;
+}
+
+@media screen and(max-width: 768px) {
+    .main-text{
+        font-size: 16vw;
+    }
+  }
+
+  @media screen and(max-width: 480px) {
+    .main-text{
+        font-size: 12vw;
+    }
+}
+
+.text-style-1{
+    font-family: 'comic sans MS', cursive, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0px;
+    color: #28302c;
+    font-weight: bold;
+    text-shadow: 0 -4px 3px rgb(255, 243, 209), 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-style-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.responsive-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.emboss{
+    color: #D43790;
+    text-shadow: 0 -4px 3px rgba(255, 255, 255, 0.3), 0 3px 4px rgba(0, 0, 0, 0.2);
+    font-size: 300%;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
