@@ -1,4 +1,33 @@
-.active{
-    color: #0054ad;
+p {
+    font-family: Lato;
+  }
+  .position-fixed{
+    position: fixed;
+    z-index: 2;
   }
   
+  .mat-spacer{
+    flex: 1 1 auto;
+  }
+  
+  .content {
+    margin-top: 75px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.example-disabled {
+  display: inline-block;
+}
+
+.active{
+  color: #00f7ff;
+}
+
+
+

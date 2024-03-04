@@ -1,10 +1,13 @@
-<mat-sidenav-container style="background-color: rgb(255, 237, 237); 
+<mat-sidenav-container style="background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #000000, #550055);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #030002, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
                               background-attachment: fixed; 
                               background-size: cover;">
 
   <!-- The side nav -->
-	<mat-sidenav #drawer fixedInViewport="true" mode="over" opened="false" style="max-width: 20%; background-color: white;">
-		<mat-toolbar style="background-color: #D43790">
+	<mat-sidenav #drawer fixedInViewport="true" mode="over" opened="false" style="max-width: 20%; background-color: rgb(0, 0, 0);">
+		<mat-toolbar style="background-color: #000000">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -13,7 +16,7 @@
         <mat-icon aria-label="Side nav toggle icon">close</mat-icon>
       </button>
     </mat-toolbar>
-		<mat-nav-list style="background-color: rgb(255, 255, 255); display: flex; flex-direction: column; align-items: center;">
+		<mat-nav-list style="background-color: rgb(0, 0, 0); display: flex; flex-direction: column; align-items: center;">
 			<mat-list-item routerLink="/" style="color: #D43790">
         <button mat-icon-button (click)=drawer.toggle()>
           <mat-icon routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page">home</mat-icon>
@@ -35,7 +38,10 @@
 
 	<!-- Side nav content-->
 	<mat-sidenav-content>
-	<mat-toolbar class="position-fixed mat-elevation-z10" style="background-color: #D43790">
+	<mat-toolbar class="position-fixed mat-elevation-z10" style= "background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a300a8, #ec38bc, #7303c0, #0c0070); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ">
       <button
         type="button"
         aria-label="Toggle sidenav"
