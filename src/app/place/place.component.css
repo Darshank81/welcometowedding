@@ -65,7 +65,6 @@
     font-size: 300%;
     font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold;
-    text-shadow: 0 0 10px #fff, 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6;
 }
 
 
@@ -77,33 +76,37 @@
     font-size: 30px;
     font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold;
-    background-image: linear-gradient(to right, #f700ff, #ff00bb, #9900ff, #00e1ff);
+    background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #ffd780 30%, #f9c54e 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #ffb100 62.5%, #ffb100 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     }
   
     @media screen and(max-width: 768px) {
-      .trans-color{
+      .trans-color-1{
           font-size: 16vw;
       }
     }
   
     @media screen and(max-width: 480px) {
-      .trans-color{
+      .trans-color-1{
           font-size: 12vw;
       }
     }
   
     .trans-color-2{
-      background: #03001e;
-      font-size: 20px;
-      font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      font-weight: bold;
-      background-image: linear-gradient(to right,  #fb89ff, #ff80dd, #c267ff, #6ee5f9);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      padding: 0px;
-    }
-  
+        background: #03001e;
+        font-size: 20px;
+        font-family: 'comic sans MS', cursive, sans-serif;
+        font-weight: bold;
+        background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #ffd780 30%, #f9c54e 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #ffb100 62.5%, #ffb100 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        padding: 0px;
+      }
+    
+      .golden{
+        background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+      }
