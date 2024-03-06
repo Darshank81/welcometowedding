@@ -20,6 +20,11 @@
   height: auto;
 }
 
+.responsive-image-3{
+  max-width: 15%;
+  height: auto;
+}
+
 
   .main-text{
     color: #D43790;
