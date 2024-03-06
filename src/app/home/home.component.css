@@ -10,6 +10,17 @@
     background-size: cover;
   }
 
+  .responsive-image-1{
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-image-2{
+  max-width: 80%;
+  height: auto;
+}
+
+
   .main-text{
     color: #D43790;
     -webkit-background-clip: text;
@@ -61,11 +72,11 @@
 
   
   .emboss{
-    color: #ffffff;
+    color: transparent;
     font-size: 300%;
     font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold;
-    text-shadow: 0 0 10px #fff, 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
   }
 
 /* ------------------------------------------------------------------------ */
