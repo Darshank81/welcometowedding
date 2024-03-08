@@ -1,11 +1,9 @@
-<mat-sidenav-container style="background: linear-gradient(to bottom,white,  black);;
-;
-                              background-attachment: fixed; 
-                              background-size: cover;">
+<mat-sidenav-container style="background: linear-gradient(to bottom,white,  #06000a);
+;background-attachment: fixed; background-size: cover;">
 
   <!-- The side nav -->
-	<mat-sidenav #drawer fixedInViewport="true" mode="over" opened="false" style="max-width: 20%; background-color:#242424;">
-		<mat-toolbar style="background-color: #242424">
+	<mat-sidenav #drawer fixedInViewport="true" mode="over" opened="false" style="max-width: 20%; background-color:#110118;">
+		<mat-toolbar style="background-color: #110118">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -14,7 +12,7 @@
         <mat-icon aria-label="Side nav toggle icon">close</mat-icon>
       </button>
     </mat-toolbar>
-		<mat-nav-list style="background-color: #242424; display: flex; flex-direction: column; align-items: center;">
+		<mat-nav-list style="background-color: #110118; display: flex; flex-direction: column; align-items: center;">
 			<mat-list-item routerLink="/" style="color: #ffffff">
         <button mat-icon-button (click)=drawer.toggle()>
           <mat-icon routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page">home</mat-icon>
@@ -36,17 +34,16 @@
 
 	<!-- Side nav content-->
 	<mat-sidenav-content>
-	<mat-toolbar class="position-fixed mat-elevation-z10" style= "background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);">
+	<mat-toolbar class="position-fixed mat-elevation-z10" style= "background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #ffd780 30%, #f9c54e 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #ffb100 62.5%, #ffb100 100%);">
       <button
         type="button"
         aria-label="Toggle sidenav"
         mat-icon-button
         (click)=drawer.toggle()>
-        <mat-icon aria-label="Side nav toggle icon" style="color: #000000;">menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon" style="color: #06000a;">menu</mat-icon>
       </button>
       <span class="mat-spacer"></span>
-      <span>Wedding Invitation</span>
+      <span style="color: #06000a;">Wedding Invitation</span>
     </mat-toolbar>
     <div class="content">
       <router-outlet></router-outlet>
