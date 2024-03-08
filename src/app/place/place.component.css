@@ -97,13 +97,11 @@
     .trans-color-2{
         background: #03001e;
         font-size: 20px;
-        font-family: 'comic sans MS', cursive, sans-serif;
-        font-weight: bold;
         background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #ffd780 30%, #f9c54e 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #ffb100 62.5%, #ffb100 100%);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        padding: 0px;
+        padding: 10px;
       }
     
       .golden{
