@@ -4,6 +4,7 @@
     text-align: center;
     border-radius:20px;
     backdrop-filter: blur(10px);
+    border: 2px solid goldenrod;
 }
   
 .example-header-image {
